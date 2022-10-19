@@ -15,27 +15,24 @@ class Result {
      */
 
     public static void plusMinus(List<Integer> arr) {
-    // Write your code here
-        double p=0,z=0,n=0;
-        for(int i=0;i<arr.size();i++){
-            if(arr.get(i)>0){
+        // Write your code here
+        double p = 0, z = 0, n = 0;
+        for (int i = 0; i < arr.size(); i++) {
+            if (arr.get(i) > 0) {
                 p++;
-            }
-            else if(arr.get(i)==0){
+            } else if (arr.get(i) == 0) {
                 z++;
-            }
-            else
+            } else
                 n++;
         }
-        double x = p/arr.size();
-        double y = z/arr.size();
-        double a = n/arr.size();
-        System.out.printf("%.6f",x);
+        double x = p / arr.size();
+        double y = z / arr.size();
+        double a = n / arr.size();
+        System.out.printf("%.6f", x);
         System.out.println();
-        System.out.printf("%.6f",a);
+        System.out.printf("%.6f", a);
         System.out.println();
-        System.out.printf("%.6f",y);
-        
+        System.out.printf("%.6f", y);
 
     }
 
